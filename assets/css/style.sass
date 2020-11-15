@@ -1,0 +1,64 @@
+@import "vars"
+@import "fonts"
+@import "footer"
+@import "header"
+@import "libs"
+@import "bg-images"
+@import "front-page"
+
+body
+	color: $text
+	font-size: 18px
+	font-family: $second-font
+	background-color: #fff
+
+	a
+		color: $accent
+		transition: all .2s ease
+
+		&:hover
+			text-decoration: none
+			color: lighten( $accent, 10%)
+
+section
+	padding: 80px 0
+
+h2
+	font-size: 35px
+	text-transform: uppercase
+	font-family: $default-font
+	margin-bottom: 20px
+
+h3
+	font-size: 28px
+	text-transform: uppercase
+	font-family: $default-font
+	margin-bottom: 20px
+
+.text__center
+	text-align: center
+
+.light__text
+	color: #fff
+
+.btn__outline
+	border: 2px solid #fff
+	color: #fff
+	padding: 10px 30px
+	border-radius: 4px
+	text-transform: uppercase
+	display: flex
+	justify-content: center
+	max-width: 270px
+	font-size: 16px
+	transition: all .3s ease
+	font-family: $default-font
+	font-weight: 500
+
+	&:hover
+		color: #000
+		background-color: #fff
+		text-decoration: none
+
+	&_center
+		margin: auto

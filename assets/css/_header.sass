@@ -1,0 +1,37 @@
+.admin-bar
+
+  header
+    top: 32px
+
+header
+  position: absolute
+  left: 0
+  right: 0
+  top: 0
+  padding: 10px 0
+  z-index: 10
+
+.header__wrap
+  display: -webkit-flex
+  display: -ms-flex
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.nav
+  display: -webkit-flex
+  display: -ms-flex
+  display: flex
+  list-style-type: none
+  margin: 0
+  padding: 0
+
+  li
+    &:not(:last-child)
+      margin-right: 40px
+
+    a
+      font-family: $default-font
+      font-size: 16px
+      font-weight: 500
+      color: #fff
